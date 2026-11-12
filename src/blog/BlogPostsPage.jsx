@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router";
 
 function BlogPostsPage () {
-    const commoncss = "bg-blue-200 rounded self-center pl-10 pr-10 px-3 py-3 w-100";
+    const commoncss = "bg-blue-200 rounded-2xl self-center pl-10 pr-10 px-3 py-3 w-100";
 
     const [postList, setPostList] = useState();
     const [loading, setLoading] = useState(true);
